@@ -25,7 +25,7 @@
     <script type="text/javascript">
         $(function() {
             $.validator.addMethod("specialChars", function( value, element ) {
-                var regex = new RegExp("^[a-zA-Z0-9/s]+$");
+                var regex = new RegExp("^[a-zA-Z0-9\\-\\s]+$");
                 var key = value;
 
                 if (!regex.test(key)) {
