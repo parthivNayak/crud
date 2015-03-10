@@ -11,7 +11,7 @@ include_once('../config.php');
 if($_POST['id']!="") {
 
     $checkUser = $db->selectOne("employees", "id ='".$_POST['id']."'");
-    if($checkUser['id']!='') {
+    if($checkUser['id'] == $_POST['id']) {
         $deleteUser = $db->delete("employees", "id ='".$checkUser['id']."'");
         header('Location:../index.php');
     }

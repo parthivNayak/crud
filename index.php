@@ -27,6 +27,7 @@ include_once('config.php');
                            success     :function(data)
                             {
                                 //Refresh table content
+                                location.reload();
                             }
                         });
                     }
@@ -47,6 +48,8 @@ include_once('config.php');
                             success     :function(data)
                             {
                                 //Refresh table content
+                                location.reload();
+
                             }
                         });
                     } else {
@@ -56,12 +59,33 @@ include_once('config.php');
             }
             //End function
 
+            //Function to delete job title detail - start
+            function deleteJob(id) {
+                if(confirm('Are you sure you want to delete this job title?')) {
+                    if(id!="") {
+                        $.ajax({
+                            type        : "POST",
+                            url         : 'jobs/delete_jobs.php',
+                            data        :  'id='+id,
+                            success     :function(data)
+                            {
+                                //Refresh table content
+                                location.reload();
+                            }
+                        });
+                    } else {
+                        //Do nothing
+                    }
+                }
+            }
+            //End function
 
         </script>
     </head>
     <body>
     <a href="employees/add_employee.php"> Add Employee Detail </a> <br/>
-    <a href="departments/add_department.php"> Add Department Detail </a>
+    <a href="departments/add_department.php"> Add Department Detail </a> <br>
+    <a href="jobs/add.php"> Add Job Title </a>
     <table cellpadding="5" cellspacing="5" border="2" id="updateResult">
         <th> Id </th>
         <th> Employee Name </th>
@@ -122,6 +146,25 @@ include_once('config.php');
                 </tr>
             <?php } //$result->close();
                 } ?>
+    </table>
+
+    <table border="2">
+        <th> Id </th>
+        <th> Job Title </th>
+        <th> Action </th>
+        <?php
+            $jobTitles = $db->select('job_titles');
+            if($jobTitles !="") { foreach($jobTitles as $jobs)  { ?>
+                <tr>
+                    <td> <?php echo $jobs['id']; ?></td>
+                    <td> <?php echo $jobs['title']; ?></td>
+                    <td>
+                        <a href="jobs/view.php?id=<?php echo $jobs['id']; ?>"> View</a>  / <a href="jobs/edit.php?id=<?php echo $jobs['id']; ?>"> Edit</a> / <a href="javascript:void(0);" onclick="deleteJob(<?php echo $jobs['id'];?>);"> Delete</a>
+                    </td>
+                </tr>
+            <?php }
+        }
+        ?>
     </table>
     </body>
 </html>

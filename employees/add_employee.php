@@ -25,10 +25,22 @@
                     changeYear: true,
                     yearRange: '1970:2015'
                 });
+                $(function() {
+                    $.validator.addMethod("specialChars", function( value, element ) {
+                        var regex = new RegExp("^[a-zA-Z0-9\\-\\s]+$");
+                        var key = value;
+
+                        if (!regex.test(key)) {
+                            return false;
+                        }
+                        return true;
+                    }, "please use only alphanumeric or alphabetic characters");
                 $('#addEmp').validate(
                     {
                         rules: {
-                            emp_name: "required",
+                            emp_name: {
+                            specialChars : true
+                        },
                             //gender  : "required",
                             dob     : "required",
                             doj     : "required"
@@ -61,6 +73,7 @@
                 }
 
             }
+        });
         </script>
     </head>
 
