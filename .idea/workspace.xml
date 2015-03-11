@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.php" line="115" />
+    <bookmark url="file://$PROJECT_DIR$/index.php" line="117" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc180c1-bd72-4f71-964e-1c0051a85769" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/departments/add_department.php" afterPath="$PROJECT_DIR$/departments/add_department.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +25,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="47" selection-start="6307" selection-end="6338" vertical-scroll-proportion="-23.125">
-              <folding />
+            <state line="8" column="4" selection-start="165" selection-end="165" vertical-scroll-proportion="0.18126889">
+              <folding>
+                <element signature="e#6#160#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +75,7 @@
       <file leaf-file-name="edit.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employees/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="667" selection-start="499" selection-end="1152" vertical-scroll-proportion="-10.625">
+            <state line="17" column="0" selection-start="485" selection-end="1184" vertical-scroll-proportion="-10.625">
               <folding>
                 <marker date="1426069278204" expanded="true" signature="1364:1521" placeholder="..." />
                 <marker date="1426069278204" expanded="true" signature="1387:1521" placeholder="{...}" />
@@ -94,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="add.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="468" selection-end="515" vertical-scroll-proportion="0.06666667">
+            <state line="9" column="24" selection-start="186" selection-end="186" vertical-scroll-proportion="-5.625">
               <folding>
                 <element signature="e#6#160#0" expanded="true" />
               </folding>
@@ -152,10 +154,10 @@
         <option value="$PROJECT_DIR$/employees/view.php" />
         <option value="$PROJECT_DIR$/employees/add.php" />
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/jobs/add_job.php" />
         <option value="$PROJECT_DIR$/employees/add_employee.php" />
         <option value="$PROJECT_DIR$/departments/add_department.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -447,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="47" selection-start="6307" selection-end="6338" vertical-scroll-proportion="-23.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobs/add_job.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="26" selection-start="525" selection-end="525" vertical-scroll-proportion="-13.125">
@@ -468,9 +463,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/departments/add_department.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="81" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-20.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="186" selection-end="186" vertical-scroll-proportion="-5.625">
+          <folding>
+            <element signature="e#6#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/employees/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="667" selection-start="499" selection-end="1152" vertical-scroll-proportion="-10.625">
+        <state line="17" column="0" selection-start="485" selection-end="1184" vertical-scroll-proportion="-10.625">
           <folding>
             <marker date="1426069278204" expanded="true" signature="1364:1521" placeholder="..." />
             <marker date="1426069278204" expanded="true" signature="1387:1521" placeholder="{...}" />
@@ -481,16 +492,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/departments/add_department.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="81" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-20.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="468" selection-end="515" vertical-scroll-proportion="0.06666667">
+        <state line="8" column="4" selection-start="165" selection-end="165" vertical-scroll-proportion="0.18126889">
           <folding>
             <element signature="e#6#160#0" expanded="true" />
           </folding>
