@@ -96,7 +96,7 @@ include_once('config.php');
         <th> Salary </th>
         <th> Action </th>
         <?php
-            $results        = 'CALL emp_details()';
+            $results        = 'CALL empDetails()';
             $statement_emp  = $db->query($results);
             $empData        = $statement_emp->fetchAll(PDO::FETCH_ASSOC);
             foreach($empData as $employee) {

@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc180c1-bd72-4f71-964e-1c0051a85769" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/add.php" afterPath="$PROJECT_DIR$/employees/add.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="ems.iws" />
@@ -26,10 +25,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="0" selection-start="6334" selection-end="6334" vertical-scroll-proportion="-23.583334">
+            <state line="98" column="40" selection-start="3438" selection-end="3438" vertical-scroll-proportion="0.30029154">
               <folding />
             </state>
           </provider>
@@ -46,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="add.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employees/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="-1.5536481">
+            <state line="10" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="45.25">
               <folding />
             </state>
           </provider>
@@ -433,16 +432,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/employees/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="0" selection-start="6334" selection-end="6334" vertical-scroll-proportion="-23.583334">
+        <state line="10" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="45.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employees/add.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="-1.5536481">
+        <state line="98" column="40" selection-start="3438" selection-end="3438" vertical-scroll-proportion="0.30029154">
           <folding />
         </state>
       </provider>
