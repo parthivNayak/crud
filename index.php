@@ -6,7 +6,8 @@
  * Time: 11:35 AM
  * To change this template use File | Settings | File Templates.
  */
-include_once('config.php');
+    ini_set('display_errors', 1);
+    include_once('config.php');
 ?>
 <html>
     <title> Home Page</title>
@@ -155,6 +156,3 @@ include_once('config.php');
     </table>
 </body>
 </html>
-
-
-
