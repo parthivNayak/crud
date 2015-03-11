@@ -15,7 +15,7 @@
     if($getEmpData['id'] != $id) {
         header('Location:../index.php');
     }
-$sql        = 'select employees.id as emp_id, employees.name as emp_name, employees.manager_id, employees.dob, employees.gender, employees.hire_date, departments.id as dept_id, departments.name as dept_name, job_titles.id as title_id, job_titles.title as emp_title from employees inner join departments inner join dept_employees inner join job_titles inner join employee_titles on departments.id=dept_employees.department_id and job_titles.id=employee_titles.job_title_id and dept_employees.employee_id=employees.id and employee_titles.employee_id=employees.id where employees.id ="'.$id.'"';
+$sql        = 'select employees.id as emp_id, employees.name as emp_name, employees.manager_id, employees.dob, employees.gender, employees.hire_date, departments.id as dept_id, departments.name as dept_name, job_titles.id as title_id, job_titles.title as emp_title, salaries.salary from employees inner join departments inner join dept_employees inner join job_titles inner join employee_titles inner join salaries on departments.id=dept_employees.department_id and job_titles.id=employee_titles.job_title_id and dept_employees.employee_id=employees.id and employee_titles.employee_id=employees.id and salaries.employee_id=employees.id where employees.id ="'.$id.'"';
 $emp        = $db->query($sql);
 foreach($emp as $empData) { ?>
 <html>
@@ -141,6 +141,10 @@ foreach($emp as $empData) { ?>
                     <option value="<?php echo $job['id'];?>" <?php  if($job['id'] == $empData['title_id']) echo 'selected="selected"'; ?>> <?php echo $job['title']; ?></option>
                     <?php } ?>
             </select></td>
+        </tr>
+        <tr>
+            <td>Salary : </td>
+            <td><input type="text" name="salary" class="number required" value="<?php echo $empData['salary'];?>" maxlength="8"></td>
         </tr>
         <tr>
             <td>

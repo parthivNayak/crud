@@ -134,6 +134,10 @@
                     </td>
                 </tr>
                 <tr>
+                    <td> Salary: </td>
+                    <td><input type="text" name="salary" class="number required"></td>
+                </tr>
+                <tr>
                     <td> Date of Birth : </td>
                     <td><input type="text" name="dob" class="required" id="dob"></td>
                 </tr>

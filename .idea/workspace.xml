@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc180c1-bd72-4f71-964e-1c0051a85769" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/add.php" afterPath="$PROJECT_DIR$/employees/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/add_employee.php" afterPath="$PROJECT_DIR$/employees/add_employee.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/edit.php" afterPath="$PROJECT_DIR$/employees/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/view.php" afterPath="$PROJECT_DIR$/employees/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,14 +29,14 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="31" selection-start="3881" selection-end="4403" vertical-scroll-proportion="-6.25">
+            <state line="110" column="679" selection-start="4555" selection-end="4555" vertical-scroll-proportion="-11.25">
               <folding>
-                <marker date="1426066828235" expanded="true" signature="5887:5994" placeholder="..." />
-                <marker date="1426066828235" expanded="true" signature="5887:6019" placeholder="..." />
-                <element signature="e#5998#6043#0" expanded="true" />
-                <marker date="1426066828235" expanded="true" signature="6425:6478" placeholder="..." />
-                <marker date="1426066828235" expanded="true" signature="6586:6843" placeholder="..." />
-                <marker date="1426066828235" expanded="true" signature="6586:6667" placeholder="..." />
+                <marker date="1426069666848" expanded="true" signature="6146:6253" placeholder="..." />
+                <marker date="1426069666848" expanded="true" signature="6146:6278" placeholder="..." />
+                <element signature="e#6257#6302#0" expanded="true" />
+                <marker date="1426069666848" expanded="true" signature="6684:6737" placeholder="..." />
+                <marker date="1426069666848" expanded="true" signature="6845:7102" placeholder="..." />
+                <marker date="1426069666848" expanded="true" signature="6845:6926" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -43,7 +45,7 @@
       <file leaf-file-name="add_employee.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employees/add_employee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="52" selection-start="3781" selection-end="3794" vertical-scroll-proportion="-13.75">
+            <state line="137" column="80" selection-start="5664" selection-end="5664" vertical-scroll-proportion="-12.5">
               <folding>
                 <element signature="e#3935#3980#0" expanded="true" />
               </folding>
@@ -54,31 +56,31 @@
       <file leaf-file-name="add.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employees/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="2596" selection-end="2596" vertical-scroll-proportion="-30.791666">
+            <state line="46" column="45" selection-start="1293" selection-end="1293" vertical-scroll-proportion="34.208332">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="view.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/employees/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="5" selection-start="388" selection-end="590" vertical-scroll-proportion="-10.0">
+            <state line="91" column="25" selection-start="4104" selection-end="4104" vertical-scroll-proportion="0.64625853">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employees/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="483" selection-end="483" vertical-scroll-proportion="0.5442177">
+            <state line="17" column="667" selection-start="499" selection-end="1152" vertical-scroll-proportion="-3.125">
               <folding>
-                <marker date="1426068066175" expanded="true" signature="1289:1446" placeholder="..." />
-                <marker date="1426068066175" expanded="true" signature="1312:1446" placeholder="{...}" />
-                <marker date="1426068066175" expanded="true" signature="1349:1446" placeholder="{&quot;changeMonth&quot;: true...}" />
-                <marker date="1426068066175" expanded="true" signature="6066:6112" placeholder="..." />
-                <marker date="1426068066175" expanded="true" signature="6083:6112" placeholder="..." />
+                <marker date="1426069278204" expanded="true" signature="1364:1521" placeholder="..." />
+                <marker date="1426069278204" expanded="true" signature="1387:1521" placeholder="{...}" />
+                <marker date="1426069278204" expanded="true" signature="1424:1521" placeholder="{&quot;changeMonth&quot;: true...}" />
+                <marker date="1426069278204" expanded="true" signature="6333:6379" placeholder="..." />
+                <marker date="1426069278204" expanded="true" signature="6350:6379" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -104,7 +106,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/employees/add.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/employees/add.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/employees/get_employees.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/employees/delete_emp.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
@@ -127,12 +129,12 @@
         <option value="$PROJECT_DIR$/departments/add_department.php" />
         <option value="$PROJECT_DIR$/departments/edit.php" />
         <option value="$PROJECT_DIR$/jobs/edit.php" />
-        <option value="$PROJECT_DIR$/employees/add_employee.php" />
         <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/employees/add_employee.php" />
+        <option value="$PROJECT_DIR$/employees/edit.php" />
         <option value="$PROJECT_DIR$/employees/add.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/employees/view.php" />
-        <option value="$PROJECT_DIR$/employees/edit.php" />
       </list>
     </option>
   </component>
@@ -393,23 +395,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="31" selection-start="3881" selection-end="4403" vertical-scroll-proportion="-6.25">
-          <folding>
-            <marker date="1426066828235" expanded="true" signature="5887:5994" placeholder="..." />
-            <marker date="1426066828235" expanded="true" signature="5887:6019" placeholder="..." />
-            <element signature="e#5998#6043#0" expanded="true" />
-            <marker date="1426066828235" expanded="true" signature="6425:6478" placeholder="..." />
-            <marker date="1426066828235" expanded="true" signature="6586:6843" placeholder="..." />
-            <marker date="1426066828235" expanded="true" signature="6586:6667" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/employees/add_employee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="52" selection-start="3781" selection-end="3794" vertical-scroll-proportion="-13.75">
+        <state line="137" column="80" selection-start="5664" selection-end="5664" vertical-scroll-proportion="-12.5">
           <folding>
             <element signature="e#3935#3980#0" expanded="true" />
           </folding>
@@ -418,28 +406,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/employees/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2596" selection-end="2596" vertical-scroll-proportion="-30.791666">
+        <state line="46" column="45" selection-start="1293" selection-end="1293" vertical-scroll-proportion="34.208332">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employees/view.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="388" selection-end="590" vertical-scroll-proportion="-10.0">
-          <folding />
+        <state line="110" column="679" selection-start="4555" selection-end="4555" vertical-scroll-proportion="-11.25">
+          <folding>
+            <marker date="1426069666848" expanded="true" signature="6146:6253" placeholder="..." />
+            <marker date="1426069666848" expanded="true" signature="6146:6278" placeholder="..." />
+            <element signature="e#6257#6302#0" expanded="true" />
+            <marker date="1426069666848" expanded="true" signature="6684:6737" placeholder="..." />
+            <marker date="1426069666848" expanded="true" signature="6845:7102" placeholder="..." />
+            <marker date="1426069666848" expanded="true" signature="6845:6926" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employees/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="483" selection-end="483" vertical-scroll-proportion="0.5442177">
+        <state line="17" column="667" selection-start="499" selection-end="1152" vertical-scroll-proportion="-3.125">
           <folding>
-            <marker date="1426068066175" expanded="true" signature="1289:1446" placeholder="..." />
-            <marker date="1426068066175" expanded="true" signature="1312:1446" placeholder="{...}" />
-            <marker date="1426068066175" expanded="true" signature="1349:1446" placeholder="{&quot;changeMonth&quot;: true...}" />
-            <marker date="1426068066175" expanded="true" signature="6066:6112" placeholder="..." />
-            <marker date="1426068066175" expanded="true" signature="6083:6112" placeholder="..." />
+            <marker date="1426069278204" expanded="true" signature="1364:1521" placeholder="..." />
+            <marker date="1426069278204" expanded="true" signature="1387:1521" placeholder="{...}" />
+            <marker date="1426069278204" expanded="true" signature="1424:1521" placeholder="{&quot;changeMonth&quot;: true...}" />
+            <marker date="1426069278204" expanded="true" signature="6333:6379" placeholder="..." />
+            <marker date="1426069278204" expanded="true" signature="6350:6379" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employees/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="25" selection-start="4104" selection-end="4104" vertical-scroll-proportion="0.64625853">
+          <folding />
         </state>
       </provider>
     </entry>

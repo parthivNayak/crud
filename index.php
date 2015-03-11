@@ -94,6 +94,7 @@ include_once('config.php');
         <th> Hire Date </th>
         <th> Department </th>
         <th> Job Title </th>
+        <th> Salary </th>
         <th> Action </th>
         <?php
             //$results    = 'CALL emp_details()';
@@ -107,7 +108,7 @@ include_once('config.php');
                 //$users    = $results->execute();
                 //$users->fetchAll(PDO::FETCH_ASSOC);
                 //$emp      = $db->select('employees');
-                $sql        = 'select employees.id as emp_id, employees.name as emp_name, employees.manager_id, employees.dob, employees.gender, employees.hire_date, departments.id, departments.name as dept_name, job_titles.id, job_titles.title as emp_title from employees inner join departments inner join dept_employees inner join job_titles inner join employee_titles on departments.id=dept_employees.department_id and job_titles.id=employee_titles.job_title_id and dept_employees.employee_id=employees.id and employee_titles.employee_id=employees.id';
+                $sql        = 'select employees.id as emp_id, employees.name as emp_name, employees.manager_id, employees.dob, employees.gender, employees.hire_date, departments.id as dept_id, departments.name as dept_name, job_titles.id as title_id, job_titles.title as emp_title, salaries.salary from employees inner join departments inner join dept_employees inner join job_titles inner join employee_titles inner join salaries on departments.id=dept_employees.department_id and job_titles.id=employee_titles.job_title_id and dept_employees.employee_id=employees.id and employee_titles.employee_id=employees.id and salaries.employee_id=employees.id order by employees.id asc';
                 $emp        = $db->query($sql);
                 foreach($emp as $employee) {
                 //while($employee = $users->fetchAll(PDO::FETCH_ASSOC)) {
@@ -134,6 +135,9 @@ include_once('config.php');
                     </td>
                     <td>
                         <?php echo $employee['emp_title'];?>
+                    </td>
+                    <td>
+                        <?php echo $employee['salary'];?>
                     </td>
                     <td>
                         <a href="employees/view.php?emp_id=<?php echo $employee['emp_id']; ?>"> View</a>  / <a href="employees/edit.php?emp_id=<?php echo $employee['emp_id']; ?>"> Edit</a> / <a href="javascript:void(0);" onclick="deleteEmp(<?php echo $employee['emp_id'];?>);"> Delete</a>
