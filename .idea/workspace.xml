@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.php" line="117" />
+    <bookmark url="file://$PROJECT_DIR$/index.php" line="115" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc180c1-bd72-4f71-964e-1c0051a85769" name="Default" comment="">
@@ -28,10 +28,8 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="165" selection-end="165" vertical-scroll-proportion="0.18126889">
-              <folding>
-                <element signature="e#6#160#0" expanded="true" />
-              </folding>
+            <state line="155" column="12" selection-start="4619" selection-end="6334" vertical-scroll-proportion="0.95468277">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -494,10 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="165" selection-end="165" vertical-scroll-proportion="0.18126889">
-          <folding>
-            <element signature="e#6#160#0" expanded="true" />
-          </folding>
+        <state line="155" column="12" selection-start="4619" selection-end="6334" vertical-scroll-proportion="0.95468277">
+          <folding />
         </state>
       </provider>
     </entry>

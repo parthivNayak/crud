@@ -6,7 +6,7 @@
  * Time: 11:35 AM
  * To change this template use File | Settings | File Templates.
  */
-    
+    phpinfo();
     include_once('config.php');
 ?>
 <html>
@@ -97,12 +97,10 @@
         <th> Salary </th>
         <th> Action </th>
         <?php
-            /*$results        = 'CALL empDetails()';
+            $results        = 'CALL empDetails()';
             $statement_emp  = $db->query($results);
-            $empData        = $statement_emp->fetchAll(PDO::FETCH_ASSOC);*/
-            $sql        = 'select employees.id as emp_id, employees.name as emp_name, employees.manager_id, employees.dob, employees.gender, employees.hire_date, departments.id as dept_id, departments.name as dept_name, job_titles.id as title_id, job_titles.title as emp_title, salaries.salary from employees inner join departments inner join dept_employees inner join job_titles inner join employee_titles inner join salaries on departments.id=dept_employees.department_id and job_titles.id=employee_titles.job_title_id and dept_employees.employee_id=employees.id and employee_titles.employee_id=employees.id and salaries.employee_id=employees.id where employees.id';
-            $emp        = $db->query($sql);
-            foreach($emp as $employee) {
+            $empData        = $statement_emp->fetchAll(PDO::FETCH_ASSOC);
+            foreach($empData as $employee) {
             ?>
                 <tr>
                     <td> <?php echo $employee['emp_id']; ?> </td>
@@ -117,6 +115,44 @@
                 </tr>
             <?php } $statement_emp->nextRowset(); ?>
     </table>
-    hifhifhohiohfihfoh
+
+    <table border="2" cellpadding="5" cellspacing="5">
+        <th> Id </th>
+        <th> Department Name </th>
+        <th> Action </th>
+        <?php
+            $fetchDeptData   = 'CALL getDepartment()';
+            $statement_dept  = $db->query($fetchDeptData);
+            $deptData        = $statement_dept->fetchAll(PDO::FETCH_ASSOC);
+            foreach($deptData as $department) { ?>
+        <tr>
+            <td> <?php echo $department['id'];?> </td>
+            <td> <?php echo $department['name'];?> </td>
+            <td>
+                <a href="departments/view.php?id=<?php echo $department['id']; ?>"> View</a>  / <a href="departments/edit.php?id=<?php echo $department['id']; ?>"> Edit</a> / <a href="javascript:void(0);" onclick="deleteDept(<?php echo $department['id'];?>);"> Delete</a>
+            </td>
+        </tr>
+        <?php  } $statement_dept->nextRowset(); ?>
+    </table>
+
+    <table border="2">
+        <th> Id </th>
+        <th> Job Title </th>
+        <th> Action </th>
+        <?php
+            $titleData       = 'CALL jobTitles()';
+            $statement_job   = $db->query($titleData);
+            $jobData         = $statement_job->fetchAll(PDO::FETCH_ASSOC);
+            foreach($jobData as $jobs) {
+        ?>
+        <tr>
+            <td> <?php echo $jobs['id']; ?></td>
+            <td> <?php echo $jobs['title']; ?></td>
+            <td>
+                <a href="jobs/view.php?id=<?php echo $jobs['id']; ?>"> View</a> / <a href="jobs/edit.php?id=<?php echo $jobs['id']; ?>"> Edit</a> / <a href="javascript:void(0);" onclick="deleteJob(<?php echo $jobs['id'];?>);"> Delete</a>
+            </td>
+        </tr>
+        <?php }  $statement_job->nextRowset(); ?>
+    </table>
 </body>
 </html>
