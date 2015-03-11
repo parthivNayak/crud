@@ -8,8 +8,6 @@
  */
 include_once('../config.php');
 if(isset($_POST['submit']) && !empty($_POST['submit'])) {
-//    echo "<pre>";
-//    print_r($_POST); exit;
 
     $name   = $_POST['emp_name'];
     $dob    = $_POST['dob'];
