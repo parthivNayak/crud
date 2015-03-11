@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bc180c1-bd72-4f71-964e-1c0051a85769" name="Default" comment="" />
+    <list default="true" id="7bc180c1-bd72-4f71-964e-1c0051a85769" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crud" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/add.php" afterPath="$PROJECT_DIR$/employees/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/add_employee.php" afterPath="$PROJECT_DIR$/employees/add_employee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/edit.php" afterPath="$PROJECT_DIR$/employees/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/view.php" afterPath="$PROJECT_DIR$/employees/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,32 +29,38 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/departments/edit.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="63" selection-start="672" selection-end="672" vertical-scroll-proportion="-13.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/departments/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="-6.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employees/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="63" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-21.875">
+            <state line="109" column="31" selection-start="3881" selection-end="4403" vertical-scroll-proportion="-6.25">
               <folding>
-                <marker date="1425988758791" expanded="true" signature="4130:4176" placeholder="..." />
-                <marker date="1425988758791" expanded="true" signature="4147:4176" placeholder="..." />
+                <marker date="1426066828235" expanded="true" signature="5887:5994" placeholder="..." />
+                <marker date="1426066828235" expanded="true" signature="5887:6019" placeholder="..." />
+                <element signature="e#5998#6043#0" expanded="true" />
+                <marker date="1426066828235" expanded="true" signature="6425:6478" placeholder="..." />
+                <marker date="1426066828235" expanded="true" signature="6586:6843" placeholder="..." />
+                <marker date="1426066828235" expanded="true" signature="6586:6667" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_employee.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employees/add_employee.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="52" selection-start="3781" selection-end="3794" vertical-scroll-proportion="-13.75">
+              <folding>
+                <element signature="e#3935#3980#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employees/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="0" selection-start="2596" selection-end="2596" vertical-scroll-proportion="-30.791666">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,38 +68,31 @@
       <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employees/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="17" column="596" selection-start="468" selection-end="1046" vertical-scroll-proportion="-10.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="468" selection-end="515" vertical-scroll-proportion="-11.25">
-              <folding>
-                <element signature="e#6#160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="edit.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jobs/edit.php">
+        <entry file="file://$PROJECT_DIR$/employees/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="63" selection-start="766" selection-end="766" vertical-scroll-proportion="0.25751072">
+            <state line="12" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="-1.6326531">
               <folding>
-                <element signature="e#6#160#0" expanded="true" />
+                <marker date="1426067312599" expanded="true" signature="1159:1316" placeholder="..." />
+                <marker date="1426067312599" expanded="true" signature="1182:1316" placeholder="{...}" />
+                <marker date="1426067312599" expanded="true" signature="1219:1316" placeholder="{&quot;changeMonth&quot;: true...}" />
+                <marker date="1426067312599" expanded="true" signature="5895:5941" placeholder="..." />
+                <marker date="1426067312599" expanded="true" signature="5912:5941" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/view.php">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="82" selection-start="698" selection-end="698" vertical-scroll-proportion="-16.875">
+            <state line="12" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -97,39 +105,43 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/employees/get_employees.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/employees/add.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/employees/get_employees.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/employees/delete_emp.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/jobs/add_job.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/departments/view.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/employees/edit.php" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/jobs/edit.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/employees/view.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/employees/add.php" />
-        <option value="$PROJECT_DIR$/departments/delete_dept.php" />
         <option value="$PROJECT_DIR$/departments/add.php" />
         <option value="$PROJECT_DIR$/departments/view.php" />
-        <option value="$PROJECT_DIR$/employees/view.php" />
         <option value="$PROJECT_DIR$/jobs/view.php" />
         <option value="$PROJECT_DIR$/jobs/add_job.php" />
         <option value="$PROJECT_DIR$/employees/delete_emp.php" />
         <option value="$PROJECT_DIR$/jobs/delete_jobs.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/jobs/add.php" />
-        <option value="$PROJECT_DIR$/employees/add_employee.php" />
         <option value="$PROJECT_DIR$/departments/add_department.php" />
-        <option value="$PROJECT_DIR$/employees/edit.php" />
         <option value="$PROJECT_DIR$/departments/edit.php" />
         <option value="$PROJECT_DIR$/jobs/edit.php" />
+        <option value="$PROJECT_DIR$/employees/add_employee.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/employees/add.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/employees/view.php" />
+        <option value="$PROJECT_DIR$/employees/edit.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
@@ -152,7 +164,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -196,48 +208,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jobs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employees" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="departments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -246,10 +216,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="coverage" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -295,16 +265,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25791246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26195285" sideWeight="0.67420214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3257979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -369,135 +339,111 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/departments/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="73" selection-start="691" selection-end="757" vertical-scroll-proportion="-15.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="19" selection-start="2843" selection-end="2843" vertical-scroll-proportion="0.52646637">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employees/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/departments/add_department.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="4" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.77253217">
-          <folding>
-            <element signature="e#6#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobs/add_job.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="631" selection-end="631" vertical-scroll-proportion="0.53648067">
+        <state line="25" column="8" selection-start="631" selection-end="631" vertical-scroll-proportion="0.53648067" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employees/delete_emp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="1" selection-start="162" selection-end="458" vertical-scroll-proportion="0.36480686" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/delete_jobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="65" selection-start="397" selection-end="397" vertical-scroll-proportion="0.27896994" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="82" selection-start="698" selection-end="698" vertical-scroll-proportion="-16.875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/class.db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4806867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="63" selection-start="766" selection-end="766" vertical-scroll-proportion="0.44206008" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="20" selection-start="468" selection-end="515" vertical-scroll-proportion="0.38626608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/departments/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.21459228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/departments/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="63" selection-start="672" selection-end="672" vertical-scroll-proportion="-13.5" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="50" selection-start="989" selection-end="989" vertical-scroll-proportion="-0.60932946">
+        <state line="109" column="31" selection-start="3881" selection-end="4403" vertical-scroll-proportion="-6.25">
           <folding>
-            <element signature="e#3326#3363#0" expanded="true" />
-            <marker date="1425984645999" expanded="true" signature="4699:4806" placeholder="..." />
-            <marker date="1425984645999" expanded="true" signature="4699:4831" placeholder="..." />
-            <element signature="e#4810#4855#0" expanded="true" />
-            <marker date="1425984645999" expanded="true" signature="5237:5290" placeholder="..." />
-            <marker date="1425984645999" expanded="true" signature="5398:5655" placeholder="..." />
-            <marker date="1425984645999" expanded="true" signature="5398:5479" placeholder="..." />
+            <marker date="1426066828235" expanded="true" signature="5887:5994" placeholder="..." />
+            <marker date="1426066828235" expanded="true" signature="5887:6019" placeholder="..." />
+            <element signature="e#5998#6043#0" expanded="true" />
+            <marker date="1426066828235" expanded="true" signature="6425:6478" placeholder="..." />
+            <marker date="1426066828235" expanded="true" signature="6586:6843" placeholder="..." />
+            <marker date="1426066828235" expanded="true" signature="6586:6667" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employees/delete_emp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="162" selection-end="458" vertical-scroll-proportion="0.36480686">
-          <folding>
-            <element signature="e#6#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/delete_jobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="65" selection-start="397" selection-end="397" vertical-scroll-proportion="0.27896994">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employees/add_employee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="11" selection-start="2681" selection-end="2681" vertical-scroll-proportion="1.6094421">
+        <state line="103" column="52" selection-start="3781" selection-end="3794" vertical-scroll-proportion="-13.75">
           <folding>
-            <element signature="e#6#159#0" expanded="true" />
+            <element signature="e#3935#3980#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/departments/view.php">
+    <entry file="file://$PROJECT_DIR$/employees/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="-6.25">
+        <state line="78" column="0" selection-start="2596" selection-end="2596" vertical-scroll-proportion="-30.791666">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employees/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="82" selection-start="698" selection-end="698" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="468" selection-end="515" vertical-scroll-proportion="-11.25">
-          <folding>
-            <element signature="e#6#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/departments/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="63" selection-start="672" selection-end="672" vertical-scroll-proportion="-13.5">
+        <state line="17" column="596" selection-start="468" selection-end="1046" vertical-scroll-proportion="-10.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employees/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="63" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-21.875">
+        <state line="12" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="-1.6326531">
           <folding>
-            <marker date="1425988758791" expanded="true" signature="4130:4176" placeholder="..." />
-            <marker date="1425988758791" expanded="true" signature="4147:4176" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="766" selection-end="766" vertical-scroll-proportion="0.25751072">
-          <folding>
-            <element signature="e#6#160#0" expanded="true" />
+            <marker date="1426067312599" expanded="true" signature="1159:1316" placeholder="..." />
+            <marker date="1426067312599" expanded="true" signature="1182:1316" placeholder="{...}" />
+            <marker date="1426067312599" expanded="true" signature="1219:1316" placeholder="{&quot;changeMonth&quot;: true...}" />
+            <marker date="1426067312599" expanded="true" signature="5895:5941" placeholder="..." />
+            <marker date="1426067312599" expanded="true" signature="5912:5941" placeholder="..." />
           </folding>
         </state>
       </provider>

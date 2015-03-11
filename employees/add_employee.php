@@ -6,7 +6,7 @@
  * Time: 2:41 PM
  * To change this template use File | Settings | File Templates.
  */
-    //include_once('../config.php');
+    include_once('../config.php');
 ?>
 
 <html>
@@ -99,7 +99,40 @@
                     <td> Is he/she selected as a Manager? <input type="checkbox" id="check"  onchange="showManager();"> </td>
                     <td id="showEmp"> </td>
                 </tr>
+                <tr>
+                    <td> Department : </td>
+                    <td> <select name="department_id" class="required">
+                            <option value=""> Select </option>
+                        <?php
+                            //$result           = 'CALL getDepartment()';
+                            //if($result) {
+                            //$departments      = $db->query($result);
+                            //$departments->setFetchMode(PDO::FETCH_ASSOC);
+                            //while($department = $departments->fetch()) {
+                            $deptData = $db->select('departments');
+                            foreach($deptData as $department) {
+                            ?>
+                                <option value="<?php echo $department['id']; ?>"><?php echo $department['name']; ?></option>
 
+                            <?php } ?> </select></td>
+                </tr>
+                <tr>
+                    <td> Job Title : </td>
+                    <td> <select name="title_id" class="required">
+                            <option value=""> Select</option>
+                            <?php
+                                $data       = $db->select('job_titles');
+                                /*$data        = 'CALL jobTitles()';
+                                $jobTitles   = $db->query($data);
+                                $jobTitles->setFetchMode(PDO::FETCH_ASSOC);
+                                while($title = $$jobTitles->fetch()) {*/
+                                foreach($data as $title) {
+                            ?>
+                                <option value="<?php echo $title['id']; ?>"> <?php echo $title['title']; ?></option>
+                            <?php } ?>
+                        </select>
+                    </td>
+                </tr>
                 <tr>
                     <td> Date of Birth : </td>
                     <td><input type="text" name="dob" class="required" id="dob"></td>

@@ -8,6 +8,8 @@
  */
 include_once('../config.php');
 if(isset($_POST['submit']) && !empty($_POST['submit'])) {
+//    echo "<pre>";
+//    print_r($_POST); exit;
 
     $name   = $_POST['emp_name'];
     $dob    = $_POST['dob'];
@@ -18,7 +20,7 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])) {
     } else {
         $manager_id = '';
     }
-    $data = array(
+    $empDetails = array(
         'name'          => $name,
         'manager_id'    => $manager_id,
         'dob'           => $dob,
@@ -28,17 +30,57 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])) {
         'modified'      => date('Y-m-d', time())
     );
 
+
+
     if($_POST['action'] == 'add_emp') {
 
         //Check if data is inserted or not.
-        if($db->insert('employees', $data)) {
+        $db->insert('employees', $empDetails);
+        $empDeptDetails = array(
+            'employee_id'   =>  $db->lastInsertId(),
+            'department_id' => $_POST['department_id'],
+            'from_date'     => $doj,
+            'to_date'       => date('d/m/Y'),
+            'created'       => date('Y-m-d', time()),
+            'modified'      => date('Y-m-d', time())
+        );
+
+        $empTitleDetails = array(
+            'employee_id'   => $db->lastInsertId(),
+            'job_title_id'  => $_POST['title_id'],
+            'from_date'     => $doj,
+            'to_date'       => date('d/m/Y'),
+            'created'       => date('Y-m-d', time()),
+            'modified'      => date('Y-m-d', time())
+        );
+        $db->insert('dept_employees', $empDeptDetails);
+        $db->insert('employee_titles', $empTitleDetails);
 
             header('Location:../index.php');
-        }
+
     } else if($_POST['action'] == 'edit_emp') {
-        if($db->update('employees', $data, 'id="'.$_POST['emp_id'].'"')) {
-            header('Location:../index.php');
-        }
+        $updateEmpDeptDetails = array(
+                'employee_id'   => $_POST['emp_id'],
+                'department_id' => $_POST['department_id'],
+                'from_date'     => $doj,
+                'to_date'       => date('d/m/Y'),
+                'created'       => date('Y-m-d', time()),
+                'modified'      => date('Y-m-d', time())
+            );
+
+        $updateEmpTitleDetails = array(
+            'employee_id'   => $_POST['emp_id'],
+            'job_title_id'  => $_POST['title_id'],
+            'from_date'     => $doj,
+            'to_date'       => date('d/m/Y'),
+            'created'       => date('Y-m-d', time()),
+            'modified'      => date('Y-m-d', time())
+        );
+
+        $db->update('employees', $empDetails, 'id="'.$_POST['emp_id'].'"');
+        $db->update('dept_employees', $updateEmpDeptDetails, 'employee_id="'.$_POST['emp_id'].'"');
+        $db->update('employee_titles', $updateEmpTitleDetails, 'employee_id="'.$_POST['emp_id'].'"');
+        header('Location:../index.php');
     }
 
 }
