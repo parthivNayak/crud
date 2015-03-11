@@ -6,14 +6,18 @@
  * Time: 2:41 PM
  * To change this template use File | Settings | File Templates.
  */
-include_once('../config.php');
-$id = stripslashes($_GET['emp_id']);
-//Get single record of selected user
-//$empData = $db->selectOne('employees', 'id="'.$id.'"');
+    include_once('../config.php');
+    $id = stripslashes($_GET['emp_id']);
+
+    //Get single record of selected user
+    $getEmpData = $db->selectOne('employees', 'id="'.$id.'"');
+    //Check if requested id and database id gets match or not
+    if($getEmpData['id'] != $id) {
+        header('Location:../index.php');
+    }
 $sql        = 'select employees.id as emp_id, employees.name as emp_name, employees.manager_id, employees.dob, employees.gender, employees.hire_date, departments.id as dept_id, departments.name as dept_name, job_titles.id as title_id, job_titles.title as emp_title from employees inner join departments inner join dept_employees inner join job_titles inner join employee_titles on departments.id=dept_employees.department_id and job_titles.id=employee_titles.job_title_id and dept_employees.employee_id=employees.id and employee_titles.employee_id=employees.id where employees.id ="'.$id.'"';
 $emp        = $db->query($sql);
-foreach($emp as $empData) {
-if($empData['emp_id'] == $id) { ?>
+foreach($emp as $empData) { ?>
 <html>
 <head>
     <title> Edit Employee </title>
@@ -53,7 +57,7 @@ if($empData['emp_id'] == $id) { ?>
                         },
                         messages: {
                            //gender  : "Please Select gender",
-                            dob     : "Please Select date of Birth",
+                            dob     : "Please Select date oflse { header('Location:../index.php'); }  Birth",
                             doj     : "Please Select Date of Joining"
                         }
                     }
@@ -148,4 +152,4 @@ if($empData['emp_id'] == $id) { ?>
 </form>
 </body>
 </html>
-    <?php } else { header('Location:../index.php'); } } ?>
+    <?php }  ?>

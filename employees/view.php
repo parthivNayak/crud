@@ -8,19 +8,20 @@
  */
     include '../config.php';
     $id = stripslashes($_GET['emp_id']);
-
     //Check if, id is blank or anythig else, redirect it to index page
     if($id == '' || $id == NULL) {
         header('Location:../index.php');
     }
 
-    //$getEmpData = $db->selectOne('employees', 'id="'.$id.'"');
+    $getEmpData = $db->selectOne('employees', 'id="'.$id.'"');
+    //Check if requested id and database id gets match or not
+    if($getEmpData['id'] != $id) {
+        header('Location:../index.php');
+    }
     $sql        = 'select employees.id as emp_id, employees.name as emp_name, employees.manager_id, employees.dob, employees.gender, employees.hire_date, departments.id as dept_id, departments.name as dept_name, job_titles.id as title_id, job_titles.title as emp_title from employees inner join departments inner join dept_employees inner join job_titles inner join employee_titles on departments.id=dept_employees.department_id and job_titles.id=employee_titles.job_title_id and dept_employees.employee_id=employees.id and employee_titles.employee_id=employees.id where employees.id ="'.$id.'"';
     $emp        = $db->query($sql);
-    foreach($emp as $empData) {
-    //Check if requested id and database id gets match or not
-    if($empData['emp_id'] == $id) {
-    ?>
+
+    foreach($emp as $empData) { ?>
     <html>
         <head>
         <title> View Employee </title>
@@ -94,4 +95,4 @@
         </tr>
     </table>
 </html>
-<?php } else { header('Location:../index.php'); } } ?>
+<?php } ?>

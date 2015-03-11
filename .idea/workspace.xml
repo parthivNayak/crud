@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc180c1-bd72-4f71-964e-1c0051a85769" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/crud" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/add.php" afterPath="$PROJECT_DIR$/employees/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/add_employee.php" afterPath="$PROJECT_DIR$/employees/add_employee.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/edit.php" afterPath="$PROJECT_DIR$/employees/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/view.php" afterPath="$PROJECT_DIR$/employees/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +63,7 @@
       <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employees/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="596" selection-start="468" selection-end="1046" vertical-scroll-proportion="-10.25">
+            <state line="19" column="5" selection-start="388" selection-end="590" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -77,13 +72,13 @@
       <file leaf-file-name="edit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/employees/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="-1.6326531">
+            <state line="16" column="4" selection-start="483" selection-end="483" vertical-scroll-proportion="0.5442177">
               <folding>
-                <marker date="1426067312599" expanded="true" signature="1159:1316" placeholder="..." />
-                <marker date="1426067312599" expanded="true" signature="1182:1316" placeholder="{...}" />
-                <marker date="1426067312599" expanded="true" signature="1219:1316" placeholder="{&quot;changeMonth&quot;: true...}" />
-                <marker date="1426067312599" expanded="true" signature="5895:5941" placeholder="..." />
-                <marker date="1426067312599" expanded="true" signature="5912:5941" placeholder="..." />
+                <marker date="1426068066175" expanded="true" signature="1289:1446" placeholder="..." />
+                <marker date="1426068066175" expanded="true" signature="1312:1446" placeholder="{...}" />
+                <marker date="1426068066175" expanded="true" signature="1349:1446" placeholder="{&quot;changeMonth&quot;: true...}" />
+                <marker date="1426068066175" expanded="true" signature="6066:6112" placeholder="..." />
+                <marker date="1426068066175" expanded="true" signature="6083:6112" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -265,13 +260,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26195285" sideWeight="0.67420214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26195285" sideWeight="0.67420214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3257979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -430,20 +425,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/employees/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="596" selection-start="468" selection-end="1046" vertical-scroll-proportion="-10.25">
+        <state line="19" column="5" selection-start="388" selection-end="590" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employees/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="-1.6326531">
+        <state line="16" column="4" selection-start="483" selection-end="483" vertical-scroll-proportion="0.5442177">
           <folding>
-            <marker date="1426067312599" expanded="true" signature="1159:1316" placeholder="..." />
-            <marker date="1426067312599" expanded="true" signature="1182:1316" placeholder="{...}" />
-            <marker date="1426067312599" expanded="true" signature="1219:1316" placeholder="{&quot;changeMonth&quot;: true...}" />
-            <marker date="1426067312599" expanded="true" signature="5895:5941" placeholder="..." />
-            <marker date="1426067312599" expanded="true" signature="5912:5941" placeholder="..." />
+            <marker date="1426068066175" expanded="true" signature="1289:1446" placeholder="..." />
+            <marker date="1426068066175" expanded="true" signature="1312:1446" placeholder="{...}" />
+            <marker date="1426068066175" expanded="true" signature="1349:1446" placeholder="{&quot;changeMonth&quot;: true...}" />
+            <marker date="1426068066175" expanded="true" signature="6066:6112" placeholder="..." />
+            <marker date="1426068066175" expanded="true" signature="6083:6112" placeholder="..." />
           </folding>
         </state>
       </provider>
