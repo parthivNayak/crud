@@ -18,6 +18,8 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])) {
 
 
     if($_POST['action']=='add_job') {
+           echo "<pre>";
+            print_r($_POST); exit;
         if($db->insert('job_titles', $data)) {
             header('Location:../index.php');
         }
