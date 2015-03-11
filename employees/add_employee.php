@@ -96,7 +96,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td> Is he/she selected as a Manager? <input type="checkbox" id="check"  onchange="showManager();"> </td>
+                    <td> Is he/she selected as a Manager? <input type="checkbox" id="check"  onchange="showManager();" /> </td>
                     <td id="showEmp"> </td>
                 </tr>
                 <tr>
@@ -104,51 +104,46 @@
                     <td> <select name="department_id" class="required">
                             <option value=""> Select </option>
                         <?php
-                            //$result           = 'CALL getDepartment()';
-                            //if($result) {
-                            //$departments      = $db->query($result);
-                            //$departments->setFetchMode(PDO::FETCH_ASSOC);
-                            //while($department = $departments->fetch()) {
-                            $deptData = $db->select('departments');
-                            foreach($deptData as $department) {
+                                $fetchDeptData   = 'CALL getDepartment()';
+                                $statement_dept  = $db->query($fetchDeptData);
+                                $deptData        = $statement_dept->fetchAll(PDO::FETCH_ASSOC);
+                                foreach($deptData as $department) {
                             ?>
                                 <option value="<?php echo $department['id']; ?>"><?php echo $department['name']; ?></option>
 
-                            <?php } ?> </select></td>
+                            <?php } $statement_dept->nextRowset();?> </select></td>
                 </tr>
                 <tr>
                     <td> Job Title : </td>
                     <td> <select name="title_id" class="required">
                             <option value=""> Select</option>
                             <?php
-                                $data       = $db->select('job_titles');
-                                /*$data        = 'CALL jobTitles()';
-                                $jobTitles   = $db->query($data);
-                                $jobTitles->setFetchMode(PDO::FETCH_ASSOC);
-                                while($title = $$jobTitles->fetch()) {*/
-                                foreach($data as $title) {
+                                $titleData       = 'CALL jobTitles()';
+                                $statement_job   = $db->query($titleData);
+                                $jobData         = $statement_job->fetchAll(PDO::FETCH_ASSOC);
+                                foreach($jobData as $jobs) {
                             ?>
-                                <option value="<?php echo $title['id']; ?>"> <?php echo $title['title']; ?></option>
-                            <?php } ?>
+                                <option value="<?php echo $jobs['id']; ?>"> <?php echo $jobs['title']; ?></option>
+                            <?php }  $statement_job->nextRowset();  ?>
                         </select>
                     </td>
                 </tr>
                 <tr>
                     <td> Salary: </td>
-                    <td><input type="text" name="salary" class="number required"></td>
+                    <td><input type="text" name="salary" class="number required" /></td>
                 </tr>
                 <tr>
                     <td> Date of Birth : </td>
-                    <td><input type="text" name="dob" class="required" id="dob"></td>
+                    <td><input type="text" name="dob" class="required" id="dob" /></td>
                 </tr>
                 <tr>
                     <td> Date of Joining : </td>
-                    <td><input type="text" name="doj" class="required" id="doj"></td>
+                    <td><input type="text" name="doj" class="required" id="doj" /></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="submit" value="Add" name="submit" />
-                        <input type="button" value="Back" />
+                        <input type="button" value="Back" onclick="windows.history.back();" />
                     </td>
                 </tr>
             </table>
