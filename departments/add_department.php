@@ -47,7 +47,7 @@
         <tr>
             <td>
                 <input type="submit" value="Add" name="submit" />
-                <input type="button" value="Back" />
+                <input type="button" value="Back" onclick="window.history.back();"/>
             </td>
         </tr>
     </table>
