@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc180c1-bd72-4f71-964e-1c0051a85769" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/class.db.php" afterPath="$PROJECT_DIR$/class/class.db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +64,7 @@
       <file leaf-file-name="class.db.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class/class.db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="425" selection-end="425" vertical-scroll-proportion="0.37777779">
+            <state line="17" column="12" selection-start="415" selection-end="415" vertical-scroll-proportion="0.24444444">
               <folding />
             </state>
           </provider>
@@ -494,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class/class.db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="425" selection-end="425" vertical-scroll-proportion="0.37777779">
+        <state line="17" column="12" selection-start="415" selection-end="415" vertical-scroll-proportion="0.24444444">
           <folding />
         </state>
       </provider>
