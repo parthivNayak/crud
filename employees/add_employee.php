@@ -104,9 +104,10 @@
                     <td> <select name="department_id" class="required">
                             <option value=""> Select </option>
                         <?php
-                                $fetchDeptData   = 'CALL getDepartment()';
+/*                                $fetchDeptData   = 'CALL getDepartment()';
                                 $statement_dept  = $db->query($fetchDeptData);
-                                $deptData        = $statement_dept->fetchAll(PDO::FETCH_ASSOC);
+                                $deptData        = $statement_dept->fetchAll(PDO::FETCH_ASSOC);*/
+                                $deptData = $db->select('departments');
                                 foreach($deptData as $department) {
                             ?>
                                 <option value="<?php echo $department['id']; ?>"><?php echo $department['name']; ?></option>
