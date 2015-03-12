@@ -10,6 +10,6 @@
 include 'class/class.db.php';
 
 //MYSQL connection
-$db     = new db("mysql://127.13.122.130:3306/", "adminxCswMs6", "26Ttfq_QBhem"); 
-//$db   = new db("mysql:host=127.0.0.1;port=3306;dbname=ems", "root", "root");
+//$db     = new db("mysql://127.13.122.130:3306/", "adminxCswMs6", "26Ttfq_QBhem");
+$db   = new db("mysql:host=127.0.0.1;port=3306;dbname=ems", "root", "root");
 //$db   = new PDO("mysql:host=127.0.0.1;port=3306;dbname=ems", "root", "root");

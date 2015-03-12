@@ -14,7 +14,8 @@ class db extends PDO {
 
 		try {
 			parent::__construct($dsn, $user, $passwd, $options);
-		} catch (PDOException $e) {
+        } catch (PDOException $e) {
+            print_r($e); exit;
 			$this->error = $e->getMessage();
 		}
 	}
