@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc180c1-bd72-4f71-964e-1c0051a85769" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employees/add_employee.php" afterPath="$PROJECT_DIR$/employees/add_employee.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +39,7 @@
       <file leaf-file-name="add_employee.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/employees/add_employee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="71" selection-start="4233" selection-end="4234" vertical-scroll-proportion="0.42222223">
+            <state line="112" column="43" selection-start="4380" selection-end="4380" vertical-scroll-proportion="0.4888889">
               <folding />
             </state>
           </provider>
@@ -490,7 +488,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/employees/add_employee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="71" selection-start="4233" selection-end="4234" vertical-scroll-proportion="0.42222223">
+        <state line="112" column="43" selection-start="4380" selection-end="4380" vertical-scroll-proportion="0.4888889">
           <folding />
         </state>
       </provider>
