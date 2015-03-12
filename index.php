@@ -8,6 +8,7 @@
  */
 
     include_once('config.php');
+
 ?>
 <html>
     <title> Home Page</title>
@@ -97,12 +98,13 @@
         <th> Salary </th>
         <th> Action </th>
         <?php
-            $results        = 'CALL empDetails()';
-            $statement_emp  = $db->query($results);
-            $empData        = $statement_emp->fetchAll(PDO::FETCH_ASSOC);
-
+            /*$results        = 'CALL empDetails()';
+            $statement_emp    = $db->query($results);
+            $empData          = $statement_emp->fetchAll(PDO::FETCH_ASSOC);*/
             //$empData        = $db->select('employees');
-            foreach($empData as $employee) {
+            $sql        = 'select employees.id as emp_id, employees.name as emp_name, employees.manager_id, employees.dob, employees.gender, employees.hire_date, departments.id as dept_id, departments.name as dept_name, job_titles.id as title_id, job_titles.title as emp_title, salaries.salary from employees inner join departments inner join dept_employees inner join job_titles inner join employee_titles inner join salaries on departments.id=dept_employees.department_id and job_titles.id=employee_titles.job_title_id and dept_employees.employee_id=employees.id and employee_titles.employee_id=employees.id and salaries.employee_id=employees.id';
+            $result = $conn->query($sql);
+            while($employee = $result->fetch_assoc()) {
             ?>
                 <tr>
                     <td> <?php echo $employee['emp_id']; ?> </td>
@@ -115,7 +117,7 @@
                     <td> <?php echo $employee['salary'];?> </td>
                     <td> <a href="employees/view.php?emp_id=<?php echo $employee['emp_id']; ?>"> View</a>  / <a href="employees/edit.php?emp_id=<?php echo $employee['emp_id']; ?>"> Edit</a> / <a href="javascript:void(0);" onclick="deleteEmp(<?php echo $employee['emp_id'];?>);"> Delete</a> </td>
                 </tr>
-            <?php } $statement_emp->nextRowset(); ?>
+            <?php } /*$statement_emp->nextRowset();*/ ?>
     </table>
 
     <table border="2" cellpadding="5" cellspacing="5">
@@ -123,9 +125,9 @@
         <th> Department Name </th>
         <th> Action </th>
         <?php
-            $fetchDeptData   = 'CALL getDepartment()';
+            /*$fetchDeptData   = 'CALL getDepartment()';
             $statement_dept  = $db->query($fetchDeptData);
-            $deptData        = $statement_dept->fetchAll(PDO::FETCH_ASSOC);
+            $deptData        = $statement_dept->fetchAll(PDO::FETCH_ASSOC);*/
             foreach($deptData as $department) { ?>
         <tr>
             <td> <?php echo $department['id'];?> </td>
@@ -134,7 +136,7 @@
                 <a href="departments/view.php?id=<?php echo $department['id']; ?>"> View</a>  / <a href="departments/edit.php?id=<?php echo $department['id']; ?>"> Edit</a> / <a href="javascript:void(0);" onclick="deleteDept(<?php echo $department['id'];?>);"> Delete</a>
             </td>
         </tr>
-        <?php  } $statement_dept->nextRowset(); ?>
+        <?php  } /*$statement_dept->nextRowset()*/; ?>
     </table>
 
     <table border="2">
@@ -142,8 +144,8 @@
         <th> Job Title </th>
         <th> Action </th>
         <?php
-            $titleData       = 'CALL jobTitles()';
-            $statement_job   = $db->query($titleData);
+/*            $titleData       = 'CALL jobTitles()';
+            $statement_job   = $db->query($titleData);*/
             $jobData         = $statement_job->fetchAll(PDO::FETCH_ASSOC);
             foreach($jobData as $jobs) {
         ?>
@@ -154,7 +156,7 @@
                 <a href="jobs/view.php?id=<?php echo $jobs['id']; ?>"> View</a> / <a href="jobs/edit.php?id=<?php echo $jobs['id']; ?>"> Edit</a> / <a href="javascript:void(0);" onclick="deleteJob(<?php echo $jobs['id'];?>);"> Delete</a>
             </td>
         </tr>
-        <?php }  $statement_job->nextRowset(); ?>
+        <?php }  /*$statement_job->nextRowset();*/ ?>
     </table>
 </body>
 </html>
