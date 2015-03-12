@@ -97,9 +97,11 @@
         <th> Salary </th>
         <th> Action </th>
         <?php
-            $results        = 'CALL empDetails()';
+            /*$results        = 'CALL empDetails()';
             $statement_emp  = $db->query($results);
-            $empData        = $statement_emp->fetchAll(PDO::FETCH_ASSOC);
+            $empData        = $statement_emp->fetchAll(PDO::FETCH_ASSOC);*/
+
+            $empData        = $db->select('employees');
             foreach($empData as $employee) {
             ?>
                 <tr>
